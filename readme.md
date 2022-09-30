@@ -1,8 +1,8 @@
 # Project-My Portfolio HTML and CSS with animation
 
-![Badge]()
+![Badge](https://img.shields.io/badge/My-Portfolio-green)
 
-# [Link of live Project]()
+# [Link of live Project](https://3kportfolio.netlify.app/)
 
 ![Images](./assets/portfoliolandingpage.jpeg)
 
