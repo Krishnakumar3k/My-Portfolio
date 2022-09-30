@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body-container{
+    background-image: url(assets/bg1.jpg);
+    opacity: 1;
+    background-color:rgb(76, 75, 75);
+    height: 100%;
+    width: 100%;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ------------------- */
+
+   
+ .allimg{
+    width:100%;
+    border-radius: 2px;
+    box-shadow: 20cm;
+
+ }
+
+/* ------------------------ */
+
+.dev{
+    color:lightcyan;
+    font-size: 20px;
+    margin-left: 3.5rem;
+    margin-top: 1.2rem;
+    font-weight: bold;
+    text-shadow: -2px -2px 10px rgb(86, 40, 237);
+
+}
+.img{
+    border-radius: 5%;
+    height:25rem;
+    margin-right: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.nav-links{
+    gap: 100px;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 3.5rem;
+    margin-top: 1.2rem;
+}
+
+.CONTACT {
+    background-color:rgb(20, 13, 26);
+    padding: 3.5px;
+    
+}
+
+.CONTACT a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.hero-details{
+    margin-left: 80px;
+    
+}
+
+.krishna{
+    
+    text-shadow: -2px -2px 5px rgb(134, 102, 239);
+}
+
+/* ---------------- ANIMATION*/
+
+.change-content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color:rgb(204, 214, 217)
+}
+
+@keyframes changetext{
+    0%{content:"MONGO DB";}
+    20%{content:"EXPRESS JS";}
+    35%{content:"REACT JS";}
+    45%{content:"NODE JS";}
+    
+}
+/* ---------------- */
+
+.hero-title{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.mern{
+    color:antiquewhite
+}
+.fsd{
+    color: aliceblue;
+}
+.para1{
+    color: rgba(255, 254, 253, 0.966);
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-indent: 0cm;
+    
+}
+.h1-child{
+    margin-left: 80px;
+}
+
+.hero-image{
+    margin-right: 80px;
+
+    
+    
+}
+
+.hero-image img{
+    border-radius:;
+    margin-right: 10px;
+    
+}
+
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-details{
+    background-color: rgb(52, 49, 56);
+    margin: 4rem;
+    padding: 1.2rem;
+    border-radius: 3px;
+}
+
+
+
+.pro-name{
+    margin-left: 10px;
+    margin-top: 7px;
+    color: rgb(228, 203, 203);
+}
+
+.project-deploy-link{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 8px;
+    background-color: rgb(29, 235, 14);
+    border-radius: 10px;
+}
+
+.project-deploy-link a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.project-live-link{
+    margin-left: 80px;
+    margin-top: 5px;
+    padding: 8px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    
+}
+
+
+
+.project-deploy-link:hover{
+    background-color: rgba(255, 11, 11, 0.896);
+    
+}
+
+.project-deploy-link a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.project-live-link:hover{
+    background-color: rgb(38, 255, 0);
+    
+}
+
+.project-live-link a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.project-live-link a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.cont{
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.cont h1{
+    margin-top: 10px;
+    margin-left: 400px;
+    
+}
+
+.contact-email{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.contact-email h1{
+    margin-top: 25px;
+    margin-left: 430px;
+    color: aqua;
+}
+
+.email-link a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin-top: 5px;
+    margin-left: 430px;
+}
+
+.contact-mobile{
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.contact-mobile h1{
+    margin-top: 15px;
+    margin-left: 400px;
+    color: aqua;
+}
+
+.mobile-number a{
+    text-decoration: none;
+    margin-left: 430px;
+    margin-top: 5px;
+    color: antiquewhite;
+    
+}
+
+.bottom-container{
+    background-color: rgb(75, 70, 80);
+}
+
+
+.thanks{
+    margin-left: 45rem;
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    color: antiquewhite;
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .body-container{
+        margin: auto;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-image img{
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .cont{
+        margin-left: -22rem;
+    }
+
+    .contact-email{
+        margin-left: -22rem;
+    }
+
+    .email-link{
+        margin-left: -25rem;
+    }
+
+    .contact-mobile{
+        margin-left: -22rem;
+    }
+
+    .mobile-number{
+        margin-left: -25rem;
+    }
+
+    .thank{
+        margin-left: 2rem;
+    }
+}
