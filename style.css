@@ -272,16 +272,113 @@
 
 
 .thanks{
-    margin-left: 45rem;
+    margin-left: 25rem;
     margin-top: 45px;
     font-size: 25px;
     font-weight: bold;
     color: antiquewhite;
     
 }
+.hchild{
+    margin-left: 17rem;
+}
 
 
 @media screen and (max-width:768px) {
+    .body-container{
+        margin: auto;
+    }
+
+    .hero-title{
+        margin-right: 90px;
+    }
+
+   .project-deploy-link{
+        margin-left: 60px;
+       
+   }
+
+   .project-live-link{
+    margin-left: 60px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+    .nav-item{
+        display: none;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-image img{
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .cont{
+        margin-left: -22rem;
+        font-size: medium;
+    }
+
+    .contact-email{
+        margin-left: -25rem;
+        font-size: 20px;
+    }
+
+    .email-link{
+        margin-left: -25rem;
+        font-size: 18px;
+    }
+
+
+    .email-text{
+        font-size: medium;
+    }
+
+
+    .contact-mobile{
+        margin-left: -22rem;
+    }
+
+    .mobile-number{
+        margin-left: -25rem;
+    }
+
+    .thanks{
+        margin-left: -10rem;
+        font-size: 15px;
+        margin-bottom: -10rem;
+    }
+    
+/*
+    .thank{
+        margin-left: -25rem;
+        font-size: 10px;
+    }
+*/
+    .visit{
+        margin-top: -25px;
+        margin-left: 10rem;
+        font-size: 20px;
+    }
+    
+   
+
+   
+}
+
+/* @media screen and (max-width:768px) {
     .body-container{
         margin: auto;
     }
@@ -328,6 +425,10 @@
     }
 
     .thank{
-        margin-left: 2rem;
+        margin-right: 2rem;
     }
-}
+
+   
+
+   
+} */
